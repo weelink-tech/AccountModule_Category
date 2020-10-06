@@ -1,7 +1,12 @@
 use_frameworks!
 
+source 'https://github.com/weelink-tech/AccountModule_Category.git'
+source 'https://github.com/CocoaPods/Specs.git'
+
 target 'AccountModule_Category_Example' do
   pod 'AccountModule_Category', :path => '../'
+
+  pod 'CTMediator'
 
   target 'AccountModule_Category_Tests' do
     inherit! :search_paths
