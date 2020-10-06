@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "summary": "A short description of AccountModule_Category.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/xiaolangshou@foxmail.com/AccountModule_Category",
+  "homepage": "https://github.com/weelink-tech/AccountModule_Category",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,7 +12,7 @@
     "xiaolangshou@foxmail.com": "xiaolangshou@foxmail.com"
   },
   "source": {
-    "git": "https://github.com/xiaolangshou@foxmail.com/AccountModule_Category.git",
+    "git": "https://github.com/weelink-tech/AccountModule_Category.git",
     "tag": "0.1.0"
   },
   "platforms": {
