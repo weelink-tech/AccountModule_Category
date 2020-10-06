@@ -9,16 +9,20 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    let btn = UIButton.init(frame: CGRect.init(x: 10, y: 90, width: 100, height: 60))
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        view.addSubview(btn)
+        btn.backgroundColor = UIColor.red
+        btn.addTarget(self, action: #selector(btnTapped), for: UIControlEvents.touchUpInside)
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    
+    @objc func btnTapped() {
+        let vc = CTMediator.init().account_viewControllerForLogin()
+        self.view.window?.rootViewController = UINavigationController.init(rootViewController: vc!)
     }
-
 }
 
