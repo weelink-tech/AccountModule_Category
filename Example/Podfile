@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'AccountModule_Category_Example' do
+  pod 'AccountModule_Category', :path => '../'
+
+  target 'AccountModule_Category_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
