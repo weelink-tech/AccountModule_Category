@@ -1,8 +1,14 @@
 PODS:
   - AccountModule_Category (0.1.0)
+  - CTMediator (25)
 
 DEPENDENCIES:
   - AccountModule_Category (from `../`)
+  - CTMediator
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - CTMediator
 
 EXTERNAL SOURCES:
   AccountModule_Category:
@@ -10,7 +16,8 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   AccountModule_Category: 9cef56e018dac1ba7bbb04918294840295b77fe6
+  CTMediator: 830c1fc204b3a6abf2a059510c7380f56343da0f
 
-PODFILE CHECKSUM: 4254201f898a13f08585f05a59dc713b8d8f7be5
+PODFILE CHECKSUM: fe06ede5124b9d27dc6f262e3074bb67714eccc5
 
 COCOAPODS: 1.9.3

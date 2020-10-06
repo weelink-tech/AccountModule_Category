@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		049EB678252C8C2F00B713FE /* CCMediator+AccountModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049EB677252C8C2F00B713FE /* CCMediator+AccountModule.swift */; };
 		13D3973BF6D8DC5115CD9F79 /* Pods_AccountModule_Category_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BFD6614C9FC7B1537223918 /* Pods_AccountModule_Category_Tests.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
@@ -28,7 +29,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		353C7E7AF0B6F27D044E1DC7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		049EB673252C8BD700B713FE /* AccountModule_Category_Example-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AccountModule_Category_Example-Bridging-Header.h"; sourceTree = "<group>"; };
+		049EB677252C8C2F00B713FE /* CCMediator+AccountModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CCMediator+AccountModule.swift"; sourceTree = "<group>"; };
+		353C7E7AF0B6F27D044E1DC7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		4C338EEC9B9410881334E3E2 /* Pods-AccountModule_Category_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AccountModule_Category_Example.debug.xcconfig"; path = "Target Support Files/Pods-AccountModule_Category_Example/Pods-AccountModule_Category_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* AccountModule_Category_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AccountModule_Category_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -41,11 +44,11 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		6BFD6614C9FC7B1537223918 /* Pods_AccountModule_Category_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AccountModule_Category_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6C94F6B138AD14A0CA6CE225 /* AccountModule_Category.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = AccountModule_Category.podspec; path = ../AccountModule_Category.podspec; sourceTree = "<group>"; };
+		6C94F6B138AD14A0CA6CE225 /* AccountModule_Category.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = AccountModule_Category.podspec; path = ../AccountModule_Category.podspec; sourceTree = "<group>"; };
 		6CD2EBBB04DB4135FB2930BB /* Pods-AccountModule_Category_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AccountModule_Category_Tests.release.xcconfig"; path = "Target Support Files/Pods-AccountModule_Category_Tests/Pods-AccountModule_Category_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		833806EF17274C67C3161A10 /* Pods-AccountModule_Category_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AccountModule_Category_Example.release.xcconfig"; path = "Target Support Files/Pods-AccountModule_Category_Example/Pods-AccountModule_Category_Example.release.xcconfig"; sourceTree = "<group>"; };
 		B9E5BFF3A6915C9DFD5233ED /* Pods_AccountModule_Category_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AccountModule_Category_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C229D4C36D7A7A2170CB7E7A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		C229D4C36D7A7A2170CB7E7A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		E3450D26A13B1635B58FB28A /* Pods-AccountModule_Category_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AccountModule_Category_Tests.debug.xcconfig"; path = "Target Support Files/Pods-AccountModule_Category_Tests/Pods-AccountModule_Category_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -77,7 +80,6 @@
 				E3450D26A13B1635B58FB28A /* Pods-AccountModule_Category_Tests.debug.xcconfig */,
 				6CD2EBBB04DB4135FB2930BB /* Pods-AccountModule_Category_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -116,10 +118,12 @@
 			children = (
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
+				049EB677252C8C2F00B713FE /* CCMediator+AccountModule.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
+				049EB673252C8BD700B713FE /* AccountModule_Category_Example-Bridging-Header.h */,
 			);
 			name = "Example for AccountModule_Category";
 			path = AccountModule_Category;
@@ -213,7 +217,7 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
-						LastSwiftMigration = 0900;
+						LastSwiftMigration = 1170;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
@@ -227,6 +231,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -314,10 +319,12 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-AccountModule_Category_Example/Pods-AccountModule_Category_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/AccountModule_Category/AccountModule_Category.framework",
+				"${BUILT_PRODUCTS_DIR}/CTMediator/CTMediator.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AccountModule_Category.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CTMediator.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -331,6 +338,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				049EB678252C8C2F00B713FE /* CCMediator+AccountModule.swift in Sources */,
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 			);
@@ -478,11 +486,14 @@
 			baseConfigurationReference = 4C338EEC9B9410881334E3E2 /* Pods-AccountModule_Category_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = AccountModule_Category/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "AccountModule_Category/AccountModule_Category_Example-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
 			};
@@ -493,11 +504,13 @@
 			baseConfigurationReference = 833806EF17274C67C3161A10 /* Pods-AccountModule_Category_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = AccountModule_Category/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "AccountModule_Category/AccountModule_Category_Example-Bridging-Header.h";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
 			};
